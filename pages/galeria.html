@@ -1,22 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--ICONOS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--BOOTSTRAP FOOTER-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Martìnez Group</title>
+    <!--CSS-->
     <link rel="stylesheet" href="../css/style.css">
-    <title>Document</title>
 </head>
+
 <body>
     <header>
-        <h1>Martínez Catering Group</h1>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../pages/historia.html">Historia</a></li>
-                <li><a href="../pages/servicios.html">Servicios</a></li>
-                <li><a href="../pages/galeria.html">Galeria</a></li>
-                <li><a href="../pages/contactos.html">Contactos</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand me-auto" href=""><span>M</span>artínez <span>G</span>roup</a>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Martínez Group</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="../pages/historia.html">Historia</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="../pages/servicios.html">Servicios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="../pages/galeria.html">Galeria</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="../pages/contactos.html">Contáctanos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
         </nav>
     </header>
     <main>
@@ -44,40 +77,44 @@
             </div>
         </section>
     </main>
-    <footer id="color">
-        <div class="footer-contenedor">
-            <h2>Contactos</h2>
-            <p>Escríbenos, queremos conocerte.</p>
-            <form action="" method="" enctype="">
-                <div>
-                    <label for="nombre">Nombre</label>
-                    <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre">
+    <footer class="footer">
+        <h2>Contáctanos</h2>
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h3>Planificar eventos</h3>
+                    <ul>
+                        <li><a href="#">Software de gestión de eventos</a></li>
+                        <li><a href="#">Gestión de eventos en línea</a></li>
+                        <li><a href="#">Organización de eventos</a></li>
+                        <li><a href="#">Catering corporativo</a></li>
+                    </ul>
                 </div>
-                <div>
-                    <label for="mail">Email</label>
-                    <input type="email">
+                <div class="footer-col">
+                    <h3>Conecta con nosotros</h3>
+                    <ul>
+                        <li><a href="#">Denunciar evento</a></li>
+                        <li><a href="#">Centro de ayuda</a></li>
+                        <li><a href="#">Términos</a></li>
+                        <li><a href="#">Privacidad</a></li>
+                    </ul>
                 </div>
-                <div>
-                    <label for="telefono">Teléfono</label>
-                    <input type="telefono">
+                <div class="footer-col">
+                    <h3>Síguenos</h3>
+                    <div class="social-links">
+                            <a href="#"><i class="bi bi-instagram"></i></a>
+                            <a href="#"><i class="bi bi-facebook"></i></a>
+                            <a href="#"><i class="bi bi-twitter-x"></i></a>
+                    </div>
                 </div>
-                <div>
-                    <label for="mensaje">Mensaje</label>
-                    <input type="text">
-                </div>
-                <a href="" class="boton">Enviar</a>
-            </form>
+            </div>
         </div>
-        <div class="footer-siguenos">
-            <section>
-                <h3>Síguenos</h3>
-                <div>
-                    <a href="https://www.facebook.com/" target="_blank"><img src="../img/facebook.jpeg" alt=""></a>
-                    <a href="https://www.instagram.com/?hl=es" target="_blank"><img src="../img/instagram.jpeg" alt=""></a>
-                </div>
-            </section>
-            <a href="header">Ir arriba</a>
-        </div>
+        <a href="" class="boton">Ir a arriba</a>
     </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
