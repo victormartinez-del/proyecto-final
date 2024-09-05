@@ -227,26 +227,35 @@ body {
 
 /*! -------- FOOTER ------ */
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-.container {
-    max-width: 1170px;
-    margin: auto;
-}
-
-
-ul {
-    list-style: none;
 }
 
 .footer {
     background-color: rgba(138, 37, 37, 0.87);
     padding: 70px 0;
 }
+
+footer h2 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+
 
 .footer-col {
     width: 25%;
@@ -300,12 +309,6 @@ ul {
     background-color: #ffffff;
 }
 
-footer h2 {
-    color: white;
-    font-size: 30px;
-    text-align: center;
-    text-transform: uppercase;
-}
 
 
 
