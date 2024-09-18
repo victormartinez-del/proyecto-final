@@ -149,8 +149,6 @@ body {
 }
 
 
-
-
 .servicios h2 {
     text-align: center;
     background-color: rgba(138, 37, 37, 0.87);
@@ -354,6 +352,7 @@ ul {
         margin: 10px;
     }
 }
+
 
 @media screen and (max-width:494px) {
     .grid-galeria {
